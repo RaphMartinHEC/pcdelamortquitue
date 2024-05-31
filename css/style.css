@@ -1,0 +1,183 @@
+/*index*/
+
+body
+{
+	font-family: Tahoma;
+	/*background-color: #f2f2f2;*/
+	background-color: #1a1a1a;
+}
+
+header
+{
+	border-bottom-style: ridge;
+	height: 155px;
+	text-align: center;
+}
+
+header img
+{
+	margin-top: 2px;
+}
+
+section#titre h1
+{
+	margin: 0;
+	font-size: 50px;
+	color: #ff8800;
+	text-align: center;
+	font-variant: small-caps;
+	text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+	line-height: 140px;
+}
+
+h2
+{
+	color: #ff8800;
+	text-shadow: 2px 2px 2px #000000, -2px -2px 2px #000000;
+}
+p.attention
+{
+	color: #cc0000;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.attention span
+{
+	text-decoration: underline;
+}
+
+section#corps nav ul
+{
+	margin:0;
+	padding:0;
+}
+
+section#corps nav ul li
+{
+	list-style-type: none;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+section#corps nav ul li a
+{
+	text-decoration: none;
+	color: #ff8800;
+	background-color: #4d4d4d;
+	padding: 5px;
+	border-style: outset;
+}
+
+section#corps nav ul li a:hover
+{
+	background-color: #808080;
+	transition: 0.3s all;
+	border-style: inset;
+}
+
+div.description
+{
+	background-color: #333333;
+	border-style: ridge;
+	border-radius: 20px;
+	text-align: center;
+	float: none;
+}
+
+div.description p
+{
+	color: #808080;
+}
+
+div.composants
+{
+	background-color: #333333;
+	border-style: ridge;
+	border-radius: 20px;
+	text-align: center;
+}
+
+footer
+{
+	color: #808080;
+	margin-top: 100px;
+}
+
+/*Config*/
+
+div.test
+{
+	text-align: center;
+}
+
+section#conf_image, section#conf_avis
+{
+	background-color: #333333;
+	border-style: ridge;
+	border-radius: 20px;
+	width : 49%;
+	height: 510px;
+	display : inline-block;
+}
+
+section#conf_image
+{
+	text-align: center;
+}
+
+section#conf_image img
+{
+	border-radius: 20px;
+	text-align: center;
+}
+
+section#conf_avis
+{
+	vertical-align: top;
+}
+
+section#conf_avis h2, section#conf_fichetech h2
+{
+	margin-left: 20px;
+}
+
+section#conf_avis p, section#conf_fichetech p
+{
+	color: #808080;
+	margin-left: 30px;
+}
+
+section#conf_avis span
+{
+	text-decoration: underline;
+}
+
+section#conf_fichetech
+{
+	background-color: #333333;
+	border-style: ridge;
+	border-radius: 20px;
+	width : 100%;
+}
+
+section#retour
+{
+	padding-top: 20px;
+}
+
+section#retour a
+{
+	text-decoration: none;
+	color: #ff8800;
+	background-color: #4d4d4d;
+	padding: 5px;
+	border-style: outset;
+}
+
+section#retour a:hover
+{
+	background-color: #808080;
+	transition: 0.3s all;
+	border-style: inset;
+}
